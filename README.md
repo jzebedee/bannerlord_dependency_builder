@@ -14,7 +14,7 @@ Create a dependency pack for your Bannerlord installation that can be used in CI
 
 ## Github Actions Instructions
 
-[See an example script.](https://github.com/jzebedee/ButterAchievements/blob/master/.github/workflows/build.yml)
+[See an example script.](https://github.com/jzebedee/ButterAchievements/blob/v1.1.0/.github/workflows/build.yml)
 
 * Host `BannerlordDependencies.zip` somewhere and copy the public link
 * Add a new environment secret to your repository (_Settings -> Security -> Secrets -> Actions -> New repository secret_) called `BANNERLORD_ASSETS_URL` and paste the link in as the secret value
